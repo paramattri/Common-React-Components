@@ -13,6 +13,7 @@ import SearchAutocomplete from "./components/search-autocomplete";
 import StarRating from "./components/star-rating";
 import TreeView from "./components/tree-view";
 import menus from "./components/tree-view/data";
+import UseFetchHookTest from "./components/use-fetch/UseFetchHookTest";
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
       {/* <TabTest /> */}
       {/* <ModalTest /> */}
       {/* <GithubProfileFinder /> */}
-      <SearchAutocomplete />
+      {/* <SearchAutocomplete /> */}
+      <UseFetchHookTest />
     </div>
   );
 }
