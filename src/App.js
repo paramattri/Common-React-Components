@@ -15,6 +15,7 @@ import TreeView from "./components/tree-view";
 import menus from "./components/tree-view/data";
 import UseFetchHookTest from "./components/use-fetch/UseFetchHookTest";
 import UseOnClickOutsideTest from "./components/use-outside-click/UseOnClickOutsideTest";
+import UseWindowResizeTest from "./components/use-window-resize/UseWindowResizeTest";
 
 function App() {
   return (
@@ -33,7 +34,8 @@ function App() {
       {/* <GithubProfileFinder /> */}
       {/* <SearchAutocomplete /> */}
       {/* <UseFetchHookTest /> */}
-      <UseOnClickOutsideTest />
+      {/* <UseOnClickOutsideTest /> */}
+      <UseWindowResizeTest />
     </div>
   );
 }
