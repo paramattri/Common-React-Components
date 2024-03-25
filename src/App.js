@@ -9,6 +9,7 @@ import LoadMoreData from "./components/load-more-data";
 import QRCodeGenerator from "./components/qr-code-generator";
 import RandomColor from "./components/random-color";
 import ScrollIndicator from "./components/scroll-indicator";
+import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom";
 import SearchAutocomplete from "./components/search-autocomplete";
 import StarRating from "./components/star-rating";
 import TreeView from "./components/tree-view";
@@ -35,7 +36,8 @@ function App() {
       {/* <SearchAutocomplete /> */}
       {/* <UseFetchHookTest /> */}
       {/* <UseOnClickOutsideTest /> */}
-      <UseWindowResizeTest />
+      {/* <UseWindowResizeTest /> */}
+      <ScrollToTopAndBottom />
     </div>
   );
 }
