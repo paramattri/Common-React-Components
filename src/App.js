@@ -13,6 +13,7 @@ import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom";
 import ScrollToSection from "./components/scroll-to-top-and-bottom/ScrollToSection";
 import SearchAutocomplete from "./components/search-autocomplete";
 import StarRating from "./components/star-rating";
+import TicTacToe from "./components/tic-tac-toe";
 import TreeView from "./components/tree-view";
 import menus from "./components/tree-view/data";
 import UseFetchHookTest from "./components/use-fetch/UseFetchHookTest";
@@ -39,7 +40,8 @@ function App() {
       {/* <UseOnClickOutsideTest /> */}
       {/* <UseWindowResizeTest /> */}
       {/* <ScrollToTopAndBottom /> */}
-      <ScrollToSection />
+      {/* <ScrollToSection /> */}
+      <TicTacToe />
     </div>
   );
 }
